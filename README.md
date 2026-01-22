@@ -55,17 +55,17 @@ ESLint + Prettier
 
 📂 Application Model
 Application {
-  id: string
-  company: string
-  position: string
-  link?: string
-  status: 'wishlist' | 'applied' | 'interview' | 'offer' | 'rejected'
-  createdAt: string
-  updatedAt?: string
-  salaryMin?: number
-  salaryMax?: number
-  location?: string
-  notes?: string
+id: string
+company: string
+position: string
+link?: string
+status: 'wishlist' | 'applied' | 'interview' | 'offer' | 'rejected'
+createdAt: string
+updatedAt?: string
+salaryMin?: number
+salaryMax?: number
+location?: string
+notes?: string
 }
 
 ⚙️ Project Setup
